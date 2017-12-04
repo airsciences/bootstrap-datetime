@@ -1,0 +1,37 @@
+{
+  "name": "bootstrap-datetime",
+  "version": "0.1.0",
+  "description": "Datetime Picker Plugin",
+  "main": "Gruntfile.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^3.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airsciences/bootstrap-datetime.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "Datetime",
+    "Plugin",
+    "Tiemstamp",
+    "DAte"
+  ],
+  "author": "Jacob Fielding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/airsciences/bootstrap-datetime/issues"
+  },
+  "homepage": "https://github.com/airsciences/bootstrap-datetime#readme"
+}
