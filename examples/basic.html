@@ -21,7 +21,7 @@
           <form>
             <div class="form-group">
               <label for="datetime-input-example">Datetime</label>
-              <input class="form-control" name="datetime-input-example" type="text" data-toggle="datetime-picker">
+              <input class="form-control" name="datetime-input-example" type="text" data-action="datetime-picker">
             </div>
           </form>
         </div>
@@ -50,7 +50,7 @@
       }
 
       $(function() {
-        $('[data-toggle="datetime-picker"]').datetimePicker()
+        $('[data-action="datetime-picker"]').datetimePicker()
 
         $('[name="datetime-input-example"]').on('change', function() {
           sync_to_result()

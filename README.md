@@ -11,9 +11,14 @@ direct to SQL like timestamp and interval strings.
 ## Basic Usage
 
 ```html
-
+<div class="form-group">
+  <label for="datetime-input-example">Datetime</label>
+  <input class="form-control" name="datetime-input-example" type="text" data-action="datetime-picker">
+</div>
 ```
 
 ```js
-
+$(function() {
+  $('[data-action="datetime-picker"]').datetimePicker();
+});
 ```
