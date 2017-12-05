@@ -42,32 +42,32 @@
     var parent = this.element.parent();
     this.input_name = this.element.attr('name');
 
-    var html = "<div class=\"form-inline\"> \
+    var html = "<div class=\"form-inline\" style=\"white-space: nowrap;\"> \
       <input data-datetime-part=\"hidden\" name=\"" + this.input_name + "\" type=\"hidden\">";
 
     if (this.options.showAll || this.options.showDate) {
-      html += "<div class=\"input-group\" style=\"width: 31.5%; margin-bottom: 5px\"> \
+      html += "<div class=\"input-group\" style=\"width: 31.5%; margin: 0px 5px 5px 0px\"> \
         <div class=\"input-group-addon\">Date</div> \
         <input data-datetime-part=\"date\" data-provide=\"datepicker\" data-date-format=\"yyyy-mm-dd\" class=\"form-control\" type=\"text\" placeholder=\"Date\" value=\"" + this.datetime.date + "\"> \
       </div>";
     }
 
     if (this.options.showAll || this.options.showHours) {
-      html += "<div class=\"input-group\" style=\"width: 20%; margin-bottom: 5px\"> \
+      html += "<div class=\"input-group\" style=\"width: 20%; margin: 0px 5px 5px 0px\"> \
         <div class=\"input-group-addon\">Hours</div> \
         <input data-datetime-part=\"hours\" class=\"form-control\" type=\"text\" placeholder=\"Hours\" value=\"" + this.datetime.hours + "\"> \
       </div>";
     }
 
     if (this.options.showAll || this.options.showMinutes) {
-      html += "<div class=\"input-group\" style=\"width: 22.5%; margin-bottom: 5px\"> \
+      html += "<div class=\"input-group\" style=\"width: 22.5%; margin: 0px 5px 5px 0px\"> \
         <div class=\"input-group-addon\">Minutes</div> \
         <input data-datetime-part=\"minutes\"class=\"form-control\" type=\"text\" placeholder=\"Minutes\" value=\"" + this.datetime.minutes + "\"> \
       </div>";
     }
 
     if (this.options.showAll || this.options.showSeconds) {
-      html += "<div class=\"input-group\" style=\"width: 22.5%; margin-bottom: 5px\"> \
+      html += "<div class=\"input-group\" style=\"width: 22.5%; margin: 0px 5px 5px 0px\"> \
         <div class=\"input-group-addon\">Seconds</div> \
         <input data-datetime-part=\"seconds\" class=\"form-control\" type=\"text\" placeholder=\"Seconds\" value=\"" + this.datetime.seconds + "\"> \
       </div>";
